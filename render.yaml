@@ -5,6 +5,9 @@ services:
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python -m uvicorn src.api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
 
   - type: web
     name: visionops-ui
@@ -13,5 +16,7 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python -m streamlit run ui/app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
       - key: API_BASE
         value: https://visionops-api.onrender.com
