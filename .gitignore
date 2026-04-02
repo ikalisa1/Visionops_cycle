@@ -9,6 +9,7 @@ venv/
 .DS_Store
 models/*.h5
 models/*.keras
+!models/flower_classifier.keras
 logs/*.csv
 uploads/**
 !uploads/.gitkeep
