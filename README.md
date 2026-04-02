@@ -205,8 +205,8 @@ Minimum production demonstration should include:
 
 ## Required Submission Links
 Add these in this README before submission:
-- GitHub Repo Link: `<ADD_LINK>`
-- YouTube Demo Link: `<ADD_LINK>`
+- GitHub Repo Link: `<https://github.com/ikalisa1/Visionops_cycle.git>`
+- YouTube Demo Link: `<https://youtu.be/XiT0Kd8D6WA?si=ZyARIJYaRmWO2uxl>`
 - Deployed URL(s): `<ADD_LINK>`
 
 ## Presentation Assets
